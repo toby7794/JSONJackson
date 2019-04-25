@@ -10,6 +10,6 @@ public class App
     {
         RatesDeserialiser ratesDeserialiser = new RatesDeserialiser("resources/rates.json");
         System.out.println(ratesDeserialiser.ratesMappedDTO.isSuccess());
-        System.out.println(ratesDeserialiser.ratesMappedDTO.getRates());
+        System.out.println(ratesDeserialiser.ratesMappedDTO.getRates("BOB"));
     }
 }

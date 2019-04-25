@@ -42,8 +42,8 @@ public class RatesDTO {
         this.date = date;
     }
 
-    public Map<String, Double> getRates() {
-        return rates;
+    public Double getRates(String key) {
+        return rates.get(key);
     }
 
     public void setRates(Map<String, Double> rates) {
